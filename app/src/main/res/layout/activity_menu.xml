@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fons"
+    android:layout_gravity="center"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <!-- Text La meva puntuació -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/miPuntuaciotxt"
+            android:text="@string/miPuntuaciotxt"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <!-- contingut puntuació -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/puntuacio"
+            android:text="@string/puntuacio"
+            android:gravity="center"/>
+        <!-- Imatge alien -->
+
+        <!-- uid -->
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="273dp"
+            android:layout_height="131dp"
+            app:srcCompat="@drawable/gokussjblue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/uid"
+            android:text="@string/uid"
+            android:gravity="center"/>
+        <!-- correu -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/correo"
+            android:text="@string/correo"
+            android:gravity="center"/>
+        <!-- edat -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/edat"
+            android:textSize="15sp"
+            android:text="@string/edat"
+            android:gravity="center"/>
+        <!-- Població -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/poblacio"
+            android:textSize="15sp"
+            android:text="@string/poblacio"
+            android:gravity="center"/>
+
+        <!-- nom -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/nom"
+            android:text="@string/nom"
+            android:gravity="center"/>
+        <!-- BOTO DE jugar -->
+        <Button
+            android:id="@+id/jugarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jugarBtn"
+            android:layout_marginTop="10dp"
+            />
+        <!-- Boto d’Editar -->
+        <Button
+            android:id="@+id/editarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editarBtn"
+            android:layout_marginTop="10dp"
+        />
+
+        <!-- BOTO DE puntuacions -->
+        <Button
+            android:id="@+id/PuntuacionsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PuntuacionsBtn"
+            android:layout_marginTop="10dp"
+            />
+        <!-- BOTO DE Credits -->
+        <Button
+            android:id="@+id/CreditsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CreditsBtn"
+            android:layout_marginTop="10dp"
+            />
+        <!-- BOTO DE Tancar sessió -->
+        <Button
+            android:id="@+id/tancarSessio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tancarSessio"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023848525360",
+    "project_id": "quiztrivial-8b71c",
+    "storage_bucket": "quiztrivial-8b71c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023848525360:android:6d2ef47f362856b3f707f5",
+        "android_client_info": {
+          "package_name": "com.example.quiztrivial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv_LEHMd3gMGunJuB97pvHnAV1ehTH6gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
